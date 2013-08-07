@@ -234,7 +234,7 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .circle img {
+  .circle #circle1 {
     border-radius: 50%; 
     position:fixed;
     position: absolute;
@@ -243,6 +243,32 @@ section {
 	opacity:.8;
 }
 
+  .circle #circle2 {
+    border-radius: 50%; 
+    position:fixed;
+    position: absolute;
+	top: 8%;
+	left: 9%;
+	opacity:.8;
+}
+
+  .circle #circle3 {
+    border-radius: 50%; 
+    position:fixed;
+    position: absolute;
+	top: 8%;
+	left: 8%;
+	opacity:.8;
+}
+
+  .circle #circle4 {
+    border-radius: 50%; 
+    position:fixed;
+    position: absolute;
+	top: 11%;
+	left: 11%;
+	opacity:.8;
+}
 .footer {
   color: white;
   font-size: 8px;
