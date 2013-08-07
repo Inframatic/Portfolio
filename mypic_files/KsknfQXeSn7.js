@@ -1,0 +1,6 @@
+/*!CK:2813220840!*//*1375687090,178183189*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["SOhrP"]); }
+
+__d("CollectionsAddNewHub",["AsyncRequest","AsyncResponse","Event","Form","Keys","TimelineSection","copyProperties"],function(a,b,c,d,e,f){var g=b('AsyncRequest'),h=b('AsyncResponse'),i=b('Event'),j=b('Form'),k=b('Keys'),l=b('TimelineSection'),m=b('copyProperties'),n={init:function(o,p,q,r,s){l.callWithSection(r,function(t){this.initImpl(o,p,q,r,s,t.getNode());}.bind(this));},initImpl:function(o,p,q,r,s,t){if(!o)return;var u=o.getCore();o.subscribe('select',function(w,x){if(!x.selected.type.match('addnew'))return;x.selected.uid||this.createHub(o,x.selected.orig_text||x.selected.text,p,q,r,s,t);}.bind(this));var v=o.getView();i.listen(u.getElement(),'keydown',function(event){if(i.getKeyCode(event)==k.RETURN&&!v.getSelection()){this.createHub(o,u.getValue(),p,q,r,s,t);event.kill();}}.bind(this));},createHub:function(o,p,q,r,s,t,u){var v=o.getCore();v.setEnabled(false);var w=function(){v.reset();v.getElement().blur();v.setEnabled(true);},x=m({title:p,type:q,root_id:u.id,results:o.getData().buildQueryResults(p)},j.serialize(t));new g(r).setData(x).setHandler(w).setErrorHandler(function(y){w();h.defaultErrorHandler(y);}).send();}};e.exports=n;});
+__d("legacy:tooltips",["ToolTips"],function(a,b,c,d){a.ToolTips=b('ToolTips');},3);

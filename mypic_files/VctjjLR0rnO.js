@@ -1,0 +1,5 @@
+/*1372642549,173217589*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["4vv8\/"]); }
+
+__d("TimeSpentBitArrayLogger",["UserActivity","copyProperties","Banzai","BanzaiODS","TimeSpentArray","Arbiter","TimeSpentConfig"],function(a,b,c,d,e,f){var g=b('UserActivity'),h=b('copyProperties'),i=b('Banzai'),j=b('BanzaiODS'),k=b('TimeSpentArray'),l=b('Arbiter'),m=b('TimeSpentConfig'),n={store:true,delay:m.initial_delay,retry:true};function o(p){if(i.isEnabled('time_spent_bit_array')){l.inform('timespent/tosbitdataposted',h({},p));i.post('time_spent_bit_array',h({},p),n);n.delay=m.delay;}}e.exports={init:function(p){if(window.top==window.self){g.subscribe(function(q,r){k.update(r.last_inform);});k.init(o,m.initial_timeout);j.bumpEntityKey('ms.time_spent.qa.www','time_spent.bits.js_initialized');}}};});

@@ -124,6 +124,130 @@ header nav {
 }
 
 /*slider start*/
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 
+
+
+a:link,
+a:visited {
+  color: white;
+}
+
+
+section {
+  height: 600px;
+  left: 40px;
+  position: relative;
+  top: 150px;
+}
+
+
+
+.knob-slider {
+  position: relative;
+  height: 500px;
+  margin: 0 auto;
+  width: 500px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.knob {
+  border: solid 1px #ccc;
+  border-radius: 50%;
+  box-shadow: 0 0 2px #333;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  height: 50px;
+  opacity: .6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: -webkit-gradient(radial, center center, 0, center center, 460, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, white), color-stop(100%, white));
+  background-image: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0) 0%, white 100%, white);
+  background-image: radial-gradient(  ellipse at center, rgba(255, 255, 255, 0) 0%, white 100%, white);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.knob:hover {
+  box-shadow: 0 0 5px #666;
+  opacity: 1; }
+
+.knob.grab {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing; }
+
+.instructions {
+  color: white;
+  font-family: 'Shadows Into Light Two', cursive;
+  right: 40px;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.knob-circle {
+  background-color:#CDDAEE;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  -webkit-transition: box-shadow 1s ease-in-out;
+  -moz-transition: box-shadow 1s ease-in-out;
+  transition: box-shadow 1s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.circle {
+  border-radius: 50%;
+  display: block;
+  height: 500px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 500px;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .circle img {
+    border-radius: 50%; 
+    position:fixed;
+    position: absolute;
+	top: 8%;
+	left: 8%;
+	opacity:.8;
+}
+
+.footer {
+  color: white;
+  font-size: 8px;
+  text-align: center; }
+  .footer p {
+    line-height: 140%; }
 
 /*slider end*/
