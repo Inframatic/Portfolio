@@ -9,14 +9,10 @@ body {
 header {
 margin-bottom:20px;
 height:20px;
+
 }
 
-#portrait {
-	margin: 0 auto;
-	height:900px;
-	width:100%;
-	background-image: url(whitetexture.png)
-}
+
 
 
 /* Reset
@@ -277,3 +273,17 @@ section {
     line-height: 140%; }
 
 /*slider end*/
+
+#portrait {
+	margin-top:60px;
+	height:600px;
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	background-image: url(whitetexture.png)
+}
+
+.parallax {
+	opacity: .6;
+	overflow:hidden;
+}
