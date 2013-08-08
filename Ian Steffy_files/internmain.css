@@ -3,9 +3,6 @@
 body {
 	background-image: url(vintage_white_wall.png);
 	margin:0 auto;
-	font-family: 'Engagement', cursive;
-	color:gray;
-	font-size:30px;
 
 }
 
@@ -24,7 +21,7 @@ height:20px;
 html { overflow-y: scroll;}
 ol, ul { list-style: none; margin: 0;}
 ul li { margin: 0; padding: 0;}
-h1 { margin: 20px;}	
+h1 { margin-bottom: 10px; color: #111111;}	
 a, img { outline: none; border:none; color: #000; font-weight: bold; text-transform: uppercase;}
 p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
 img { display: block; margin-bottom: 10px;}
@@ -58,7 +55,7 @@ header h1 {
 	width: 160px;
 	float: left;
 	display: block;
-	color:gray;
+	color:black;
 	/*background: url(../images/demo.gif) 0 0 no-repeat;*/
 	/*text-indent: -9999px;*/
 	}
@@ -332,7 +329,7 @@ section {
 	width:300px;
 	background-image:url(empty_flag.gif);
 	position:relative;
-	top:-3.3%;
+	top:-2.3%;
 	float:right;
 
 }
@@ -350,73 +347,15 @@ section {
 	width:100%;
 	background-image: url(vintage_gray_wall.png);
 	position: absolute;
-	top: 133%;
-	margin: 0 auto;
-}
+top: 133%;
 
-form {
-	position:absolute;
-	top: 28%;
-	left: 30%;
-	border: 5px solid white; 
-    -webkit-box-shadow: 
-    inset 0 0 8px  rgba(0,0,0,0.1),
-    0 0 16px rgba(0,0,0,0.1); 
-    -moz-box-shadow: 
-   	inset 0 0 8px  rgba(0,0,0,0.1),
-     0 0 16px rgba(0,0,0,0.1); 
-    box-shadow: 
-    inset 0 0 8px  rgba(0,0,0,0.1),
-    0 0 16px rgba(0,0,0,0.1); 
-    padding: 15px;
-    background: rgba(255,255,255,0.5);
 }
 
 #contact_container img {
-	height: 50px;
-	position:absolute;
-	float:center;
-}
-
-#linkedin {
-	top: 77%;
-	left: 40%;
-}
-
-#github {
-	top: 77%;
-	left: 34%;
-}
-
-#boxtext {
-	top:72%;
-	width:100%;
-	height:auto;
-	position:absolute;
-}
-
-#bt1 {
-	position:absolute;
-	left: 10%;
-
-}
-
-#bt2 {
-	position:absolute;
-	left: 43%;
-
-}
-
-#bt3 {
-	position:absolute;
-	left: 79%;
-}
-
-#btfinal {
-	display:none;
+	height: 70px;
 }
 @media screen and (max-width: 480px) {
-	#box1_container{
+		#box1_container{
 		display:none;
 		height: 200px;
 		width:300px;
@@ -465,33 +404,6 @@ form {
 		top:-13%;
 		left: 4%;
 		position:relative;
-	}
-
-
-	#bt1 {
-		display:none;
-		position:absolute;
-		left: 9%;
-
-	}
-
-	#bt2 {
-		display:none;
-		position:absolute;
-		left: 43%;
-
-	}
-
-	#bt3 {
-		display:none;
-		position:absolute;
-		left: 77%;
-	}
-
-	#btfinal {
-		display:block;
-		position:absolute;
-		left: 17%;
 	}
 
 	.knob-circle {
