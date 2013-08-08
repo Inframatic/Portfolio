@@ -292,26 +292,35 @@ section {
 #box1_container{
 	height: 200px;
 	width:300px;
-	background-color:#C6D9BA;
+	background-image:url(one_stripe.gif);
 	position:absolute;
 	top: 31%;
 	float:left;
 	margin-left:20px;
 }
 
+#box1_container img {
+	height:auto;
+	width:92%;
+	opacity:.9;
+	top:-13%;
+	position:relative;
+}
+
 #box2_container {
 	height: 200px;
 	width:300px;
-	background-color:#C6D9BA;
+	background-image:url(empty_flag.gif);
 	position:relative;
 	top:31%;
 	margin:0 auto;
+	overflow:hidden;
 }
 
 #box3_container {
 	height: 200px;
 	width:300px;
-	background-color:#C6D9BA;
+	background-color:#CDDAEE;
 	position:relative;
 	top:-2.3%;
 	float:right;
