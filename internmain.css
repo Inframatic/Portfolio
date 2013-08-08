@@ -279,11 +279,41 @@ section {
 	height:600px;
 	position:relative;
 	width:100%;
-	overflow:hidden;
+	overflow:auto;
 	background-image: url(whitetexture.png)
+
 }
 
 .parallax {
 	opacity: .6;
 	overflow:hidden;
+}
+
+#box1_container{
+	height: 200px;
+	width:300px;
+	background-color:#C6D9BA;
+	position:absolute;
+	top: 31%;
+	float:left;
+	margin-left:20px;
+}
+
+#box2_container {
+	height: 200px;
+	width:300px;
+	background-color:#C6D9BA;
+	position:relative;
+	top:31%;
+	margin:0 auto;
+}
+
+#box3_container {
+	height: 200px;
+	width:300px;
+	background-color:#C6D9BA;
+	position:relative;
+	top:-2.3%;
+	float:right;
+	margin-right:20px;
 }
