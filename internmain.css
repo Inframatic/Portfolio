@@ -294,7 +294,6 @@ section {
 	height:600px;
 	position:relative;
 	width:100%;
-	overflow:auto;
 	background-image: url(whitetexture.png);
 	padding-left:40px;
 
@@ -338,7 +337,7 @@ section {
 	width:300px;
 	background-image:url(empty_flag.gif);
 	position:relative;
-	top:-3.3%;
+	top:-2.3%;
 	float:right;
 
 }
