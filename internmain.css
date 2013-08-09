@@ -329,7 +329,6 @@ section {
 	position:relative;
 	top:31%;
 	margin:0 auto;
-	overflow:hidden;
 }
 
 #box3_container {
@@ -377,20 +376,20 @@ form {
     background: rgba(255,255,255,0.5);
 }
 
-#contact_container img {
+#linkedin {
+	top: 118%;
+	left: 59%;
 	height: 50px;
 	position:absolute;
 	float:center;
 }
 
-#linkedin {
-	top: 77%;
-	left: 40%;
-}
-
 #github {
-	top: 77%;
-	left: 34%;
+	top: 118%;
+	left: 45%;
+	height: 50px;
+	position:absolute;
+	float:center;
 }
 
 #boxtext {
@@ -402,19 +401,20 @@ form {
 
 #bt1 {
 	position:absolute;
-	left: 10%;
-
+	left: 36%;
+	top: 106%;
 }
 
 #bt2 {
 	position:absolute;
-	left: 43%;
-
+	left: 31%;
+	top: 105%;
 }
 
 #bt3 {
 	position:absolute;
-	left: 79%;
+	left: 35%;
+	top: 103%;
 }
 
 #btfinal {
@@ -449,7 +449,6 @@ form {
 		position:relative;
 		top:31%;
 		margin:0 auto;
-		overflow:hidden;
 	}
 
 	#box3_container {
@@ -496,7 +495,8 @@ form {
 	#btfinal {
 		display:block;
 		position:absolute;
-		left: 17%;
+		left: 28%;
+		top: 103%;
 	}
 
 	.knob-circle {
